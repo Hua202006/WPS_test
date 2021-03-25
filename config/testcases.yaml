@@ -1,0 +1,14 @@
+# 定义区域名:
+excel:
+  # 选项名: 选项值
+  # 如果选项值为数字，那么会自动转化为数字类型（int、float）
+  # 如果选项值为true、on、True，那么会自动转化为True
+  # 如果选项值为false、off、False，那么会自动转化为False
+  # 其他有字母的，读取出来都为字符串类型
+
+
+report:
+  filename: "testcase"
+log:
+  logger_level: "DEBUG"
+  log_filename: "testcase.log"
