@@ -50,7 +50,7 @@ class HomePage(BasePage):
         """插入图片"""
         e=self.find(self.insert_locator)
         e.click()
-        self.file_upload(self.picture_locator)
+        self.file_upload(self.picture_locator,self.file_path)
         if self.find(self.img_path):
             return "图片插入成功"
         else:

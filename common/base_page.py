@@ -171,7 +171,7 @@ class BasePage:
             return self
 
 
-    def file_upload(self,locator):
+    def file_upload(self,locator,file_path):
         ''' 文件上传 '''
         try:
             mfile = self.find(locator)
@@ -180,11 +180,11 @@ class BasePage:
             # #方法2 python3.8有异常
             time.sleep(2)
             import pyautogui
-            pyautogui.write(r'C:\Users\zh\Desktop\Linux.png')
-            time.sleep(1)
+            pyautogui.write(file_path)
+            time.sleep(2)
             pyautogui.press('enter', 2)
             time.sleep(3)
-            pass
+
             ##方法1
             #from pywinauto import Desktop
             # from pywinauto import Desktop
