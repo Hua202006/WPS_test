@@ -43,9 +43,4 @@ class LoginPage(BasePage):
         self.click_element(self.confirm_locator)
         time.sleep(5)
         self.click_element(self.login_locator)
-
         return self
-
-
-
-

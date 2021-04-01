@@ -19,10 +19,10 @@ class HomePage(BasePage):
     open_locator = ('xpath', "//div[@id='StartTab']")
     write_locator = ('xpath', "//input[@class='virtual-input no-public-autofocus']")
     page_text_locator = ('xpath', "//*[@class='text-page']")
-    insert_locator=('xpath',"//div[@id='InsertTab']")
+    insert_locator = ('xpath', "//div[@id='InsertTab']")
     picture_locator = ('xpath', '//div[text()="图片"]')
     file_path = r'C:\Users\zh\Desktop\Linux.png'
-    img_path=('xpath','//*[@id="image"]')
+    img_path = ('xpath', '//*[@id="image"]')
 
     def find_data(self):
         """获取新建按钮的文本"""
@@ -48,9 +48,9 @@ class HomePage(BasePage):
 
     def add_picture(self):
         """插入图片"""
-        e=self.find(self.insert_locator)
+        e = self.find(self.insert_locator)
         e.click()
-        self.file_upload(self.picture_locator,self.file_path)
+        self.file_upload(self.picture_locator, self.file_path)
         if self.find(self.img_path):
             return "图片插入成功"
         else:

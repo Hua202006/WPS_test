@@ -197,7 +197,7 @@ class BasePage:
             # time.sleep(2)
             # dialog["Button"].click()
             # time.sleep(2)
-            #文件上传失败时，强制等待时间可以增多去调试验证
+            #1/文件上传失败时，强制等待时间可以增多去调试验证; 2/打断点时需要断点到上传后打，否则有可能失败
         except Exception as err:
             self.save_screenshot()
             do_log.error(f"上传文件失败：{err}")

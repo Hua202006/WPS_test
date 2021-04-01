@@ -1,6 +1,7 @@
 """收集和运行用例。"""
 
 import pytest
+
 '''
 #生成html报告
 import os
@@ -13,5 +14,5 @@ html_filename = os.path.join(REPORTS_PATH, html_filename)
 pytest.main([f'--html={html_filename}'])
 '''
 
-pytest.main(['-s','--alluredir=reports/','--clean-alluredir']) #生成allure报告
-
+pytest.main(['-s', '--alluredir=reports/', '--clean-alluredir', '--reruns=2', '--reruns-delay=3'])  # 生成allure报告
+# 每次运行pytest.main, 将报告放到reports路径；清楚之前报告记录；重运行进制2次,延时3秒运行

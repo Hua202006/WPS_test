@@ -70,3 +70,13 @@
 2021-03-25 16:01:49,083 - [ERROR] - [msg]: 测试用例不通过:assert 'Hello123' in 'C:\\Users\\zh\\C:\\Users\\zh\\Desktop\\Li' - testcase - 32
 2021-03-25 16:05:11,570 - [ERROR] - [msg]: 测试用例不通过:assert 'Hello123' in 'C:\\Users\\zh\\C:\\Users\\zh\\Desktop\\Li' - testcase - 32
 2021-03-25 16:17:31,319 - [ERROR] - [msg]: 测试用例不通过:assert 'Hello123' in '' - testcase - 32
+2021-03-26 15:24:32,259 - [ERROR] - [msg]: 测试用例不通过:assert 'Hello123' in '' - testcase - 32
+2021-04-01 10:18:20,923 - [ERROR] - [msg]: 测试用例不通过:assert 'Hello123' in '' - testcase - 32
+2021-04-01 14:35:54,198 - [ERROR] - [msg]: 测试用例不通过:assert 'Hello12356' in 'Hello123' - testcase - 32
+2021-04-01 14:36:45,775 - [ERROR] - [msg]: 测试用例不通过:assert 'Hello12356' in 'Hello123Hello123' - testcase - 32
+2021-04-01 14:37:59,284 - [ERROR] - [msg]: 测试用例不通过:assert 'Hello12356' in 'Hello123' - testcase - 32
+2021-04-01 14:38:43,051 - [ERROR] - [msg]: 测试用例不通过:assert 'Hello12356' in 'Hello123Hello123' - testcase - 32
+2021-04-01 14:39:38,091 - [ERROR] - [msg]: 测试用例不通过:assert 'Hello12356' in 'Hello123Hello123' - testcase - 32
+2021-04-01 14:43:57,344 - [ERROR] - [msg]: 测试用例不通过:assert '新建' in '新 建' - testcase - 22
+2021-04-01 14:44:00,453 - [ERROR] - [msg]: 测试用例不通过:assert '新建' in '新 建' - testcase - 22
+2021-04-01 14:44:03,499 - [ERROR] - [msg]: 测试用例不通过:assert '新建' in '新 建' - testcase - 22
