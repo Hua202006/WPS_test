@@ -9,11 +9,9 @@
   @Email: 1403589704@qq.com
 ==================================================
 '''
-
-
+import pytest
 from common.handle_log import do_log
 from pages.home_page import HomePage
-
 
 
 class TestDoc:
@@ -25,9 +23,14 @@ class TestDoc:
             driver = login
             home_page = HomePage(driver)
             home_page.get()
-            res=home_page.find_open()
+            res = home_page.find_open()
             expect = "开始"
             assert expect == res
         except Exception as e:
             do_log.error(f"测试用例不通过:{e}")
             raise e
+
+
+if __name__ == '__main__':
+
+    pytest.main(["-s", 'test_doc.py'])

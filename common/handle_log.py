@@ -23,7 +23,7 @@ class HandleLog:
 
         self.my_logger.setLevel(do_yaml.get_data("log", "logger_level"))  # 设置日志等级
         console_handle = logging.StreamHandler()  # 创建日志输出渠道，日志输出到控制台
-        #console_handle.setLevel('WARNING')  # 控制台的日志等级，若不写，则遵循上面的等级
+        # console_handle.setLevel('WARNING')  # 控制台的日志等级，若不写，则遵循上面的等级
         log_full_path = os.path.join(LOG_PATH, do_yaml.get_data('log', 'log_filename'))  # log保存地址
         file_handle = logging.FileHandler(log_full_path, encoding="utf-8")  # 日志输出到文件
         # 创建日志的显示样式（格式）并与渠道进行关联
@@ -37,7 +37,8 @@ class HandleLog:
     def get_logger(self):
         return self.my_logger
 
-do_log = HandleLog().get_logger() #创建实例对象，后续直接调用do_log
+
+do_log = HandleLog().get_logger()  # 创建实例对象，后续直接调用do_log
 
 if __name__ == '__main__':
     do_log = HandleLog()

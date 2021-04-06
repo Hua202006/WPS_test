@@ -4,16 +4,13 @@ from common.handle_log import do_log
 from pages.home_page import HomePage
 
 
-
-
 class TestLogin:
 
     def test_login(self, login):
         """登录"""
 
         try:
-            driver= login
-
+            driver = login
             home_page = HomePage(driver)
             res = home_page.find_data()
             expect = "新 建"
@@ -21,7 +18,6 @@ class TestLogin:
         except Exception as e:
             do_log.error(f"测试用例不通过:{e}")
             raise e
-
 
 
 if __name__ == '__main__':

@@ -1,82 +1,66 @@
-2021-03-23 14:59:46,277 - [ERROR] - [msg]: 元素定位失败：Message: 
- - testcase - 73
-2021-03-23 14:59:46,277 - [ERROR] - [msg]: 测试用例不通过:'NoneType' object has no attribute 'text' - testcase - 22
-2021-03-23 15:07:12,628 - [ERROR] - [msg]: 测试用例不通过:Message: chrome not reachable
-  (Session info: chrome=89.0.4389.90)
- - testcase - 22
-2021-03-24 09:05:49,821 - [ERROR] - [msg]: 元素定位失败：Message: 
+2021-04-06 10:52:36,597 - [ERROR] - [msg]: 元素定位失败：Message: 
  - testcase - 60
-2021-03-24 09:05:50,177 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
-2021-03-24 09:06:11,038 - [ERROR] - [msg]: 元素定位失败：Message: 
+2021-04-06 10:52:37,030 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
+2021-04-06 10:52:58,159 - [ERROR] - [msg]: 元素定位失败：Message: 
  - testcase - 60
-2021-03-24 09:06:11,386 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
-2021-03-24 09:42:48,179 - [ERROR] - [msg]: 测试用例不通过:get() takes 1 positional argument but 2 were given - testcase - 33
-2021-03-24 09:43:22,275 - [ERROR] - [msg]: 测试用例不通过:get() takes 1 positional argument but 2 were given - testcase - 33
-2021-03-24 09:44:43,653 - [ERROR] - [msg]: 测试用例不通过:get() takes 1 positional argument but 2 were given - testcase - 33
-2021-03-24 09:53:54,122 - [ERROR] - [msg]: 元素定位失败：Message: 
- - testcase - 73
-2021-03-24 10:04:52,678 - [ERROR] - [msg]: 元素定位失败：Message: 
+2021-04-06 10:52:58,539 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
+2021-04-06 10:53:19,594 - [ERROR] - [msg]: 元素定位失败：Message: 
  - testcase - 60
-2021-03-24 10:04:53,077 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
-2021-03-24 10:05:13,963 - [ERROR] - [msg]: 元素定位失败：Message: 
+2021-04-06 10:53:20,028 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
+2021-04-06 10:53:30,060 - [ERROR] - [msg]: 元素定位失败：Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: chrome=89.0.4389.114)
+ - testcase - 25
+2021-04-06 10:55:23,066 - [ERROR] - [msg]: 元素定位失败：Message: 
  - testcase - 60
-2021-03-24 10:05:14,313 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
-2021-03-24 10:05:35,207 - [ERROR] - [msg]: 元素定位失败：Message: 
+2021-04-06 10:55:23,394 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
+2021-04-06 10:55:44,249 - [ERROR] - [msg]: 元素定位失败：Message: 
  - testcase - 60
-2021-03-24 10:05:35,558 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
-2021-03-24 10:06:31,672 - [ERROR] - [msg]: 元素定位失败：Message: 
- - testcase - 73
-2021-03-24 10:06:31,672 - [ERROR] - [msg]: 测试用例不通过:'NoneType' object has no attribute 'text' - testcase - 32
-2021-03-24 10:07:28,692 - [ERROR] - [msg]: 元素定位失败：Message: 
- - testcase - 73
-2021-03-24 10:07:28,692 - [ERROR] - [msg]: 测试用例不通过:'NoneType' object has no attribute 'text' - testcase - 32
-2021-03-24 10:08:46,917 - [ERROR] - [msg]: 元素定位失败：Message: 
- - testcase - 73
-2021-03-24 10:08:46,917 - [ERROR] - [msg]: 测试用例不通过:'NoneType' object has no attribute 'text' - testcase - 32
-2021-03-24 10:29:08,016 - [ERROR] - [msg]: 测试用例不通过:'WebElement' object has no attribute 'sendkeys' - testcase - 30
-2021-03-24 10:31:59,723 - [ERROR] - [msg]: 元素定位失败：Message: 
- - testcase - 83
-2021-03-24 10:39:37,966 - [ERROR] - [msg]: 测试用例不通过:'WebElement' object has no attribute 'sendkeys' - testcase - 32
-2021-03-24 10:47:55,357 - [ERROR] - [msg]: 元素定位失败：Message: 
- - testcase - 73
-2021-03-24 10:50:23,595 - [ERROR] - [msg]: 测试用例不通过:Message: element not interactable
-  (Session info: chrome=89.0.4389.90)
- - testcase - 32
-2021-03-24 10:52:03,668 - [ERROR] - [msg]: 测试用例不通过:Message: element not interactable
-  (Session info: chrome=89.0.4389.90)
- - testcase - 32
-2021-03-24 10:57:50,297 - [ERROR] - [msg]: 测试用例不通过:Message: element not interactable
-  (Session info: chrome=89.0.4389.90)
- - testcase - 32
-2021-03-24 11:04:10,592 - [ERROR] - [msg]: 测试用例不通过:Message: element not interactable
-  (Session info: chrome=89.0.4389.90)
- - testcase - 32
-2021-03-24 11:40:57,440 - [ERROR] - [msg]: 测试用例不通过:assert '新建' in '新 建' - testcase - 22
-2021-03-25 14:25:54,342 - [ERROR] - [msg]: 元素定位失败：Message: 
+2021-04-06 10:55:44,686 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
+2021-04-06 10:56:05,585 - [ERROR] - [msg]: 元素定位失败：Message: 
  - testcase - 60
-2021-03-25 14:25:54,756 - [ERROR] - [msg]: 元素定位失败：move_to requires a WebElement - testcase - 116
-2021-03-25 14:28:49,794 - [ERROR] - [msg]: 上传文件失败：Message: element not interactable
-  (Session info: chrome=89.0.4389.90)
- - testcase - 212
-2021-03-25 14:34:29,502 - [ERROR] - [msg]: 元素定位失败：Message: 
+2021-04-06 10:56:05,979 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
+2021-04-06 10:56:16,031 - [ERROR] - [msg]: 元素定位失败：Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: chrome=89.0.4389.114)
+ - testcase - 25
+2021-04-06 10:59:30,902 - [ERROR] - [msg]: 元素定位失败：Message: 
  - testcase - 60
-2021-03-25 14:49:35,418 - [ERROR] - [msg]: 测试用例不通过:assert 'Hello123' in '' - testcase - 32
-2021-03-25 15:06:00,537 - [ERROR] - [msg]: 测试用例不通过:assert 'Hello123' in '' - testcase - 32
-2021-03-25 15:44:56,538 - [ERROR] - [msg]: 测试用例不通过:Message: element not interactable
-  (Session info: chrome=89.0.4389.90)
- - testcase - 32
-2021-03-25 15:47:20,399 - [ERROR] - [msg]: 测试用例不通过:assert 'Hello123' in '' - testcase - 32
-2021-03-25 16:00:19,117 - [ERROR] - [msg]: 测试用例不通过:assert 'Hello123' in 'C:\\Users\\zh\\Desktop\\Li' - testcase - 32
-2021-03-25 16:01:49,083 - [ERROR] - [msg]: 测试用例不通过:assert 'Hello123' in 'C:\\Users\\zh\\C:\\Users\\zh\\Desktop\\Li' - testcase - 32
-2021-03-25 16:05:11,570 - [ERROR] - [msg]: 测试用例不通过:assert 'Hello123' in 'C:\\Users\\zh\\C:\\Users\\zh\\Desktop\\Li' - testcase - 32
-2021-03-25 16:17:31,319 - [ERROR] - [msg]: 测试用例不通过:assert 'Hello123' in '' - testcase - 32
-2021-03-26 15:24:32,259 - [ERROR] - [msg]: 测试用例不通过:assert 'Hello123' in '' - testcase - 32
-2021-04-01 10:18:20,923 - [ERROR] - [msg]: 测试用例不通过:assert 'Hello123' in '' - testcase - 32
-2021-04-01 14:35:54,198 - [ERROR] - [msg]: 测试用例不通过:assert 'Hello12356' in 'Hello123' - testcase - 32
-2021-04-01 14:36:45,775 - [ERROR] - [msg]: 测试用例不通过:assert 'Hello12356' in 'Hello123Hello123' - testcase - 32
-2021-04-01 14:37:59,284 - [ERROR] - [msg]: 测试用例不通过:assert 'Hello12356' in 'Hello123' - testcase - 32
-2021-04-01 14:38:43,051 - [ERROR] - [msg]: 测试用例不通过:assert 'Hello12356' in 'Hello123Hello123' - testcase - 32
-2021-04-01 14:39:38,091 - [ERROR] - [msg]: 测试用例不通过:assert 'Hello12356' in 'Hello123Hello123' - testcase - 32
-2021-04-01 14:43:57,344 - [ERROR] - [msg]: 测试用例不通过:assert '新建' in '新 建' - testcase - 22
-2021-04-01 14:44:00,453 - [ERROR] - [msg]: 测试用例不通过:assert '新建' in '新 建' - testcase - 22
-2021-04-01 14:44:03,499 - [ERROR] - [msg]: 测试用例不通过:assert '新建' in '新 建' - testcase - 22
+2021-04-06 10:59:31,299 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
+2021-04-06 10:59:52,261 - [ERROR] - [msg]: 元素定位失败：Message: 
+ - testcase - 60
+2021-04-06 10:59:52,701 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
+2021-04-06 11:00:13,571 - [ERROR] - [msg]: 元素定位失败：Message: 
+ - testcase - 60
+2021-04-06 11:00:13,913 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
+2021-04-06 11:00:23,949 - [ERROR] - [msg]: 元素定位失败：Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: chrome=89.0.4389.114)
+ - testcase - 25
+2021-04-06 11:00:52,910 - [ERROR] - [msg]: 元素定位失败：Message: 
+ - testcase - 60
+2021-04-06 11:00:53,430 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
+2021-04-06 11:01:14,334 - [ERROR] - [msg]: 元素定位失败：Message: 
+ - testcase - 60
+2021-04-06 11:01:14,756 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
+2021-04-06 11:02:29,632 - [ERROR] - [msg]: 元素定位失败：Message: 
+ - testcase - 60
+2021-04-06 11:02:29,975 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
+2021-04-06 11:02:50,936 - [ERROR] - [msg]: 元素定位失败：Message: 
+ - testcase - 60
+2021-04-06 11:02:51,270 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
+2021-04-06 11:06:50,740 - [ERROR] - [msg]: 元素定位失败：Message: 
+ - testcase - 60
+2021-04-06 11:06:51,110 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
+2021-04-06 11:07:12,041 - [ERROR] - [msg]: 元素定位失败：Message: 
+ - testcase - 60
+2021-04-06 11:07:12,401 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
+2021-04-06 11:07:33,304 - [ERROR] - [msg]: 元素定位失败：Message: 
+ - testcase - 60
+2021-04-06 11:07:33,717 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
+2021-04-06 11:07:43,782 - [ERROR] - [msg]: 元素定位失败：Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: chrome=89.0.4389.114)
+ - testcase - 25
+2021-04-06 11:08:12,954 - [ERROR] - [msg]: 元素定位失败：Message: 
+ - testcase - 60
+2021-04-06 11:08:13,305 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
+2021-04-06 11:16:46,541 - [ERROR] - [msg]: 元素定位失败：Message: 
+ - testcase - 60
+2021-04-06 11:16:46,912 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93

@@ -15,9 +15,9 @@ from common.handle_log import do_log
 from pages.home_page import HomePage
 
 
-class TestAdddoc:
+class TestAddPicture:
 
-    def test_adddoc(self, login):
+    def test_addpicture(self, login):
         """写入doc"""
 
         try:
