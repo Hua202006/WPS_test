@@ -25,6 +25,7 @@ class LoginPage(BasePage):
     pwd_locator = ('xpath', "//input[@id='password']")
     confirm_locator = ("xpath", "//div[@id='rectBottom']")
     login_locator = ("xpath", "//a[@id='login']")
+    login_error_locator = ('xpath', "//span[@id='errorMsg']")
 
     def get(self):
         """访问login页面"""
@@ -44,3 +45,8 @@ class LoginPage(BasePage):
         time.sleep(5)
         self.click_element(self.login_locator)
         return self
+
+    def login_error_text(self):
+        """ 获取登录失败文本"""
+        e = self.wait_element_visible(self.login_error_locator)
+        return e.text

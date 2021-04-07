@@ -64,3 +64,37 @@
 2021-04-06 11:16:46,541 - [ERROR] - [msg]: 元素定位失败：Message: 
  - testcase - 60
 2021-04-06 11:16:46,912 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
+2021-04-07 09:24:28,684 - [ERROR] - [msg]: 元素定位失败：Message: 
+ - testcase - 73
+2021-04-07 09:24:28,685 - [ERROR] - [msg]: 测试用例不通过:'NoneType' object has no attribute 'text' - testcase - 37
+2021-04-07 09:29:40,658 - [ERROR] - [msg]: 测试用例不通过:assert '帐号或密码不正确' == ''
+  + 帐号或密码不正确 - testcase - 36
+2021-04-07 09:31:13,592 - [ERROR] - [msg]: 测试用例不通过:assert '帐号或密码不正确' in '' - testcase - 36
+2021-04-07 09:35:56,008 - [ERROR] - [msg]: 元素定位失败：Message: 
+ - testcase - 60
+2021-04-07 09:35:56,380 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
+2021-04-07 09:36:58,151 - [ERROR] - [msg]: 元素定位失败：Message: 
+ - testcase - 60
+2021-04-07 09:36:58,553 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
+2021-04-07 09:37:10,579 - [ERROR] - [msg]: 测试用例不通过:Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.114)
+ - testcase - 37
+2021-04-07 10:02:23,600 - [ERROR] - [msg]: 元素定位失败：Message: 
+ - testcase - 60
+2021-04-07 10:02:23,972 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
+2021-04-07 10:02:44,899 - [ERROR] - [msg]: 元素定位失败：Message: 
+ - testcase - 60
+2021-04-07 10:02:45,339 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
+2021-04-07 10:03:06,211 - [ERROR] - [msg]: 元素定位失败：Message: 
+ - testcase - 60
+2021-04-07 10:03:06,611 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
+2021-04-07 10:03:16,680 - [ERROR] - [msg]: 元素定位失败：Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: chrome=89.0.4389.114)
+ - testcase - 25
+2021-04-07 10:03:46,297 - [ERROR] - [msg]: 元素定位失败：Message: 
+ - testcase - 60
+2021-04-07 10:03:46,639 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
+2021-04-07 10:04:07,551 - [ERROR] - [msg]: 元素定位失败：Message: 
+ - testcase - 60
+2021-04-07 10:04:08,013 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93

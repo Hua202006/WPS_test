@@ -13,10 +13,10 @@
 
 from common.handle_log import do_log
 from pages.home_page import HomePage
-
+import pytest
 
 class TestWritedoc:
-
+    @pytest.mark.success
     def test_writedoc(self, login):
         """写入doc"""
 

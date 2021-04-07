@@ -14,6 +14,7 @@ from common.handle_log import do_log
 from pages.home_page import HomePage
 
 
+@pytest.mark.success
 class TestDoc:
 
     def test_adddoc(self, login):
@@ -32,5 +33,4 @@ class TestDoc:
 
 
 if __name__ == '__main__':
-
-    pytest.main(["-s", 'test_doc.py'])
+    pytest.main(["-s", '-m', 'success'])

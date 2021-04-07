@@ -13,10 +13,10 @@
 
 from common.handle_log import do_log
 from pages.home_page import HomePage
-
+import pytest
 
 class TestAddPicture:
-
+    @pytest.mark.success
     def test_addpicture(self, login):
         """写入doc"""
 
