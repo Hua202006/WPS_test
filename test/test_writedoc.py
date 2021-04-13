@@ -10,10 +10,10 @@
 ==================================================
 '''
 
-
 from common.handle_log import do_log
 from pages.home_page import HomePage
 import pytest
+
 
 class TestWritedoc:
     @pytest.mark.success
@@ -32,6 +32,8 @@ class TestWritedoc:
             do_log.error(f"测试用例不通过:{e}")
             raise e
 
+
 if __name__ == '__main__':
     import pytest
-    pytest.main(["-s","test_writedoc.py"])
+
+    pytest.main(["-s", "test_writedoc.py"])

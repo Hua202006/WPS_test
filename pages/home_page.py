@@ -9,6 +9,10 @@
   @Email: 1403589704@qq.com
 ==================================================
 '''
+import time
+
+from selenium.webdriver.common.keys import Keys
+
 from common.base_page import BasePage
 from config import config
 
@@ -36,13 +40,16 @@ class HomePage(BasePage):
 
     def find_open(self):
         '''获取 开始 按钮文本'''
+        self.window_scroll(0, 'document.body.scrollHeight')
         e = self.wait_element_visible(self.open_locator)
         return e.text
 
     def write_doc(self):
         '''在doc文档添加文字并返回文本内容'''
+
         e = self.find(self.write_locator)
         e.send_keys('Hello123')
+        # e.send_keys(Keys.CONTROL,Keys.END)  模拟键盘操作
         ele = self.find(self.page_text_locator)
         return ele.text
 

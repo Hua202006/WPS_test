@@ -33,4 +33,5 @@ class TestDoc:
 
 
 if __name__ == '__main__':
-    pytest.main(["-s", '-m', 'success'])
+    #pytest.main(["-s", '-m', 'success'])
+    pytest.main(["-s", 'test_doc.py'])

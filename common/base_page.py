@@ -1,9 +1,8 @@
 from common.handle_log import do_log
 import os
 import time
-
-
-from selenium.webdriver import Chrome,Firefox
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver import Chrome
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
@@ -92,7 +91,6 @@ class BasePage:
             self.save_screenshot()
             do_log.error(f"元素定位失败：{err}")
 
-
     def double_click(self, locator):
         """双击某个元素"""
         try:
@@ -157,12 +155,14 @@ class BasePage:
 
     def window_scroll(self, width=None, height=None):
         """ 滑动到窗口 -设置窗口滚动条的宽度和高度 """
+
         try:
             if width is None:
                 width = "0"
             if height is None:
                 height = "0"
             js = "window.scrollTo({w},{h});".format(w=width, h=height)
+            # scroll_jscode = "window.scrollTo({w},{h});".format(w=0, h="document.body.scrollHeight")
             self.driver.execute_script(js)
         except Exception as err:
             self.save_screenshot()
@@ -170,8 +170,7 @@ class BasePage:
         else:
             return self
 
-
-    def file_upload(self,locator,file_path):
+    def file_upload(self, locator, file_path):
         ''' 文件上传 '''
         try:
             mfile = self.find(locator)
@@ -186,7 +185,7 @@ class BasePage:
             time.sleep(3)
 
             ##方法1
-            #from pywinauto import Desktop
+            # from pywinauto import Desktop
             # from pywinauto import Desktop
             # app = Desktop()
             # # 窗口
@@ -197,10 +196,9 @@ class BasePage:
             # time.sleep(2)
             # dialog["Button"].click()
             # time.sleep(2)
-            #1/文件上传失败时，强制等待时间可以增多去调试验证; 2/打断点时需要断点到上传后打，否则有可能失败
+            # 1/文件上传失败时，强制等待时间可以增多去调试验证; 2/打断点时需要断点到上传后打，否则有可能失败
         except Exception as err:
             self.save_screenshot()
             do_log.error(f"上传文件失败：{err}")
         else:
             return self
-

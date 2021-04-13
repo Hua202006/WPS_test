@@ -44,9 +44,11 @@ class LoginPage(BasePage):
         self.click_element(self.confirm_locator)
         time.sleep(5)
         self.click_element(self.login_locator)
+
         return self
 
     def login_error_text(self):
         """ 获取登录失败文本"""
         e = self.wait_element_visible(self.login_error_locator)
         return e.text
+

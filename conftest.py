@@ -1,7 +1,7 @@
 import pytest
 from selenium import webdriver
 from config import config
-from data.login_data import cases_success
+from data.login_data import login_success
 from pages.home_page import HomePage
 from pages.login_page import LoginPage
 
@@ -30,7 +30,7 @@ def login(browser):
     login_page = LoginPage(browser)
 
     # 传入正确的手机号码和密码
-    user_info = cases_success[0]
+    user_info = login_success[0]
     login_page.get().login(user_info["user"], user_info["password"])
     homepage = HomePage(browser)
     if homepage.find_data() == "新 建":

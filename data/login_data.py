@@ -9,5 +9,5 @@
   @Email: 1403589704@qq.com
 ==================================================
 '''
-cases_success = [{"user": "18682487671", "password": "hua0328."}]
-
+login_success = [{"user": "18682487671", "password": "hua0328."}]
+login_error = [{"user": "18682487671", "password": "12121"}]

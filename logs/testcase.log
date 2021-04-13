@@ -98,3 +98,8 @@ from unknown error: web view not found
 2021-04-07 10:04:07,551 - [ERROR] - [msg]: 元素定位失败：Message: 
  - testcase - 60
 2021-04-07 10:04:08,013 - [ERROR] - [msg]: 元素定位失败：'NoneType' object has no attribute 'click' - testcase - 93
+2021-04-12 16:42:23,824 - [ERROR] - [msg]: 测试用例不通过:type object 'datetime.time' has no attribute 'sleep' - testcase - 32
+2021-04-12 17:35:20,130 - [ERROR] - [msg]: 窗口滚动失败：Message: javascript error: missing ) after argument list
+  (Session info: chrome=89.0.4389.114)
+ - testcase - 170
+2021-04-13 14:52:59,041 - [ERROR] - [msg]: 测试用例不通过:assert 'Hello123' in '' - testcase - 32
